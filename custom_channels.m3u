@@ -1,0 +1,15 @@
+# ==============================================================================
+# DAFTAR SALURAN MANUAL / PERMANEN (CUSTOM CHANNELS)
+# ==============================================================================
+# File ini TIDAK AKAN PERNAH terhapus atau tertimpa oleh sistem auto-update Xoilac.
+# Semua saluran yang Anda tulis di sini akan digabung secara otomatis ke dalam
+# satu link GitHub playlist:
+# https://raw.githubusercontent.com/tvstreamindonesia/AutoUpdate/main/xoilac.m3u
+#
+# CONTOH PENULISAN:
+# #EXTINF:-1 tvg-id="rcti.id" tvg-name="RCTI HD" tvg-logo="https://raw.githubusercontent.com/tvstreamindonesia/AutoUpdate/main/logos/rcti.png" group-title="TV NASIONAL",RCTI HD
+# https://link-stream-kamu.com/rcti.m3u8
+# ==============================================================================
+
+#EXTINF:-1 tvg-id="info.id" tvg-name="TVSTREAM INFO" tvg-logo="https://raw.githubusercontent.com/tvstreamindonesia/AutoUpdate/main/logos/info.png" group-title="INFO & PENGUMUMAN",TVSTREAM INFO SALURAN
+https://live2.jorvakstreamcache.com/live/channel16.m3u8
