@@ -1606,13 +1606,19 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 ########################################################
 
 #EXTINF:-1 tvg-id="y39mp1h6gngjmoj" tvg-name="Coquimbo Unido vs O.Higgins" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/9dn1m1ghl44moep/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/9dn1m1ghl44moep/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",[17/10 06:30 WIB] [La Liga] Coquimbo Unido vs O.Higgins
-https://live1.quickscoreboardz.com/live/channel12.m3u8?wsSecret=42863f3239635b7cac40309650c5a098&wsABSTime=1792231600
+https://live1.quickscoreboardz.com/live/channel12.m3u8?wsSecret=310ed60ff37baf0d1aa964a099b682ee&wsABSTime=1792233446
 
 #EXTINF:-1 tvg-id="l7oqdehg5wnzr51" tvg-name="Garudayaksa FC vs Arema FC" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/56ypq3nhz53md7o/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/56ypq3nhz53md7o/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",[17/10 15:30 WIB] [Liga 1 Indonesia] Garudayaksa FC vs Arema FC
 https://live2.jorvakstreamcache.com/live/channel21.m3u8
 
 #EXTINF:-1 tvg-id="y0or5jh9xed9qwz" tvg-name="Bangladesh Police vs Arambagh KS" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/kdj2ryohyzgq1zp/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/kdj2ryohyzgq1zp/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",[17/10 15:45 WIB] [Premier League] Bangladesh Police vs Arambagh KS
-https://live1.quickscoreboardz.com/live/channel19.m3u8?wsSecret=3da1bf3d353a32cc829ce6f9327aea57&wsABSTime=1792231603
+https://live1.quickscoreboardz.com/live/channel19.m3u8?wsSecret=bf504f326b9f0e1e07374c3376ff5c8b&wsABSTime=1792233449
+
+#EXTINF:-1 tvg-id="x7lm7phxg0djm2w" tvg-name="Abahani Limited vs Chattogram City FC" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/kdj2ryohyzgq1zp/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/kdj2ryohyzgq1zp/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",[17/10 15:45 WIB] [Premier League] Abahani Limited vs Chattogram City FC
+https://live1.quickscoreboardz.com/live/channel20.m3u8?wsSecret=c641f115a81b0b08598bc09bc2677801&wsABSTime=1792233450
+
+#EXTINF:-1 tvg-id="n54qllh45xy3qvy" tvg-name="Rahmatgonj MFS vs Brothers Union" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/kdj2ryohyzgq1zp/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/kdj2ryohyzgq1zp/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",[17/10 15:45 WIB] [Premier League] Rahmatgonj MFS vs Brothers Union
+https://live1.quickscoreboardz.com/live/channel21.m3u8?wsSecret=90466cc3d393b04ccfc355abbc176ede&wsABSTime=1792233451
 
 #EXTINF:-1 tvg-id="l7oqdehgzklzr51" tvg-name="Everton vs Chelsea" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/jednm9whz0ryox8/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/jednm9whz0ryox8/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",[17/10 18:30 WIB] [Premier League] Everton vs Chelsea
 https://live2.jorvakstreamcache.com/live/channel1.m3u8
