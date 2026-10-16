@@ -1605,24 +1605,24 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 ## [LIVE] PERTANDINGAN SEDANG BERLANGSUNG
 ########################################################
 
-#EXTINF:-1 tvg-id="pxwrxlhyw298ryk" tvg-name="SC Heerenveen vs Excelsior SBV" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/vl7oqdeheyr510j/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/vl7oqdeheyr510j/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",SC Heerenveen vs Excelsior SBV (LIVE - Halftime)
+#EXTINF:-1 tvg-id="pxwrxlhyw298ryk" tvg-name="SC Heerenveen vs Excelsior SBV" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/vl7oqdeheyr510j/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/vl7oqdeheyr510j/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",SC Heerenveen vs Excelsior SBV (LIVE - Babak 2)
 https://live2.jorvakstreamcache.com/live/channel18.m3u8
 
-#EXTINF:-1 tvg-id="pxwrxlhyo2loryk" tvg-name="Eintracht Frankfurt vs FC Köln" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/gy0or5jhg6qwzv3/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/gy0or5jhg6qwzv3/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",Eintracht Frankfurt vs FC Köln (LIVE - Babak 1)
-https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001792177231-0-0-a6c5d0c3bf6c9b4e73788da9d81eb335
+#EXTINF:-1 tvg-id="pxwrxlhyo2loryk" tvg-name="Eintracht Frankfurt vs FC Köln" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/gy0or5jhg6qwzv3/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/gy0or5jhg6qwzv3/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",Eintracht Frankfurt vs FC Köln (LIVE - Halftime)
+https://live2.domaincdn.cc/livecdn/channel-5.flv?auth_key=3000001792179418-0-0-f86a255edf24eb6a09cf2095e79312ab
+
+#EXTINF:-1 tvg-id="x7lm7phjdk62m2w" tvg-name="Frosinone vs Sassuolo" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/4zp5rzghp5q82w1/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/4zp5rzghp5q82w1/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",Frosinone vs Sassuolo (LIVE - Babak 1)
+https://live2.jorvakstreamcache.com/live/channel15.m3u8
 
 #EXTINF:-1 tvg-id="4wyrn4h6143nq86" tvg-name="Le Mans vs Toulouse FC" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/yl5ergphnzr8k0o/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/yl5ergphnzr8k0o/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",Le Mans vs Toulouse FC (LIVE - Babak 1)
 https://live2.jorvakstreamcache.com/live/channel6.m3u8
 
-#EXTINF:-1 tvg-id="x7lm7phjdk62m2w" tvg-name="Frosinone vs Sassuolo" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/4zp5rzghp5q82w1/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/4zp5rzghp5q82w1/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",Frosinone vs Sassuolo (LIVE - Babak 1)
-https://live2.jorvakstreamcache.com/live/channel15.m3u8
+#EXTINF:-1 tvg-id="vjxm8ghe6xj8r6o" tvg-name="Dep. La Coruna vs Levante" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/vl7oqdehlyr510j/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/vl7oqdehlyr510j/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",Dep. La Coruna vs Levante (LIVE - Babak 1)
+https://live2.jorvakstreamcache.com/live/channel1.m3u8
 
 ########################################################
 ## [JADWAL] PERTANDINGAN MENDATANG
 ########################################################
 
-#EXTINF:-1 tvg-id="vjxm8ghe6xj8r6o" tvg-name="Dep. La Coruna vs Levante" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/vl7oqdehlyr510j/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/vl7oqdehlyr510j/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",[17/10 02:00 WIB] [La Liga] Dep. La Coruna vs Levante
-https://live2.jorvakstreamcache.com/live/channel1.m3u8
-
 #EXTINF:-1 tvg-id="y39mp1h6gngjmoj" tvg-name="Coquimbo Unido vs O.Higgins" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/9dn1m1ghl44moep/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/9dn1m1ghl44moep/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",[17/10 06:30 WIB] [La Liga] Coquimbo Unido vs O.Higgins
-https://live1.quickscoreboardz.com/live/channel12.m3u8?wsSecret=8ca8c554aaa6b4ca5afcf6f067345614&wsABSTime=1792220444
+https://live1.quickscoreboardz.com/live/channel12.m3u8?wsSecret=7526f263ad092e1753b46a301c058c27&wsABSTime=1792222629
