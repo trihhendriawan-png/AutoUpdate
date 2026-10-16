@@ -99,7 +99,7 @@ COMPETITION_WHITELIST = [
         "category": "Top European Leagues",
         "competition": "Premier League",
         "pattern": r"(?i)\b(premier\s*league|ngoại\s*hạng\s*anh|epl|english\s*premier\s*league)\b",
-        "exclude": r"(?i)(bahrain|mizoram|israel|kuwait|egypt|russia|youth|u\d+|women|nữ|futsal)"
+        "exclude": r"(?i)(bahrain|mizoram|israel|kuwait|egypt|russia|youth|u\d+|women|nữ|futsal|masters|esports|dota|gaming)"
     },
     {
         "category": "Top European Leagues",
