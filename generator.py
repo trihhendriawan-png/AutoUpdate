@@ -29,7 +29,9 @@ class PlaylistGenerator:
     def _load_custom_channels(self) -> List[str]:
         """
         Loads manual/custom M3U channel entries from CUSTOM_CHANNELS_FILE if present.
-        Strips redundant #EXTM3U headers so playlist remains clean and valid.
+        Strips redundant #EXTM3U headers, converts invalid separator lines to comments,
+        and ensures every channel entry is valid with an active stream URL so that
+        IPTV players like TiviMate and OTT Navigator never crash or fail to load.
         """
         if not CUSTOM_CHANNELS_FILE:
             return []
@@ -43,22 +45,64 @@ class PlaylistGenerator:
             return []
 
         try:
-            with open(custom_path, "r", encoding="utf-8-sig") as f:
+            with open(custom_path, "r", encoding="utf-8-sig", errors="ignore") as f:
                 content = f.read()
 
             raw_lines = content.splitlines()
-            result = []
-            for line in raw_lines:
-                stripped = line.strip()
-                # Skip duplicate EXTM3U headers
-                if stripped.startswith("#EXTM3U"):
-                    continue
-                result.append(line)
+            valid_entries = []
+            channel_props_before = []
+            current_channel_lines = []
+            in_channel = False
 
-            # Return lines only if there is at least one non-comment stream/channel entry
-            if any(l.strip() and not l.strip().startswith("#") for l in result):
-                logger.info(f"Loaded manual channels from {custom_path} ({len(result)} lines)")
-                return result
+            for line in raw_lines:
+                s = line.strip()
+                if not s:
+                    continue
+
+                if s.startswith("#EXTM3U"):
+                    continue
+
+                # Convert decorative section dividers (e.g. <=== ... ===>) into comments
+                if s.startswith("<") or s.startswith("="):
+                    if not in_channel:
+                        valid_entries.append(f"## {line}")
+                    continue
+
+                # Directives that may appear BEFORE #EXTINF (#KODIPROP, #EXTVLCOPT, etc.)
+                if s.startswith("#KODIPROP:") or s.startswith("#EXTVLCOPT:") or s.startswith("#EXTHTTP:"):
+                    if in_channel:
+                        current_channel_lines.append(line)
+                    else:
+                        channel_props_before.append(line)
+                    continue
+
+                # Channel header #EXTINF
+                if s.startswith("#EXTINF:"):
+                    # Discard any previous channel that had no stream URL
+                    current_channel_lines = channel_props_before + [line]
+                    channel_props_before = []
+                    in_channel = True
+                    continue
+
+                # Stream URL
+                if s.startswith("http://") or s.startswith("https://") or s.startswith("rtmp://") or s.startswith("rtsp://"):
+                    if in_channel:
+                        current_channel_lines.append(line)
+                        valid_entries.extend(current_channel_lines)
+                        valid_entries.append("")
+                        current_channel_lines = []
+                        channel_props_before = []
+                        in_channel = False
+                    continue
+
+                # Other comments
+                if s.startswith("#"):
+                    if not in_channel:
+                        valid_entries.append(line)
+
+            if valid_entries:
+                logger.info(f"Loaded manual channels from {custom_path} ({len(valid_entries)} clean lines)")
+                return valid_entries
             return []
         except Exception as e:
             logger.warning(f"Gagal membaca file custom channels {custom_path}: {e}")
