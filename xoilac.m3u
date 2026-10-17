@@ -2753,17 +2753,24 @@ http://alpha.tv.online.tm/legacyhls/ch004_720/index.m3u8
 ## [LIVE] PERTANDINGAN SEDANG BERLANGSUNG
 ########################################################
 
-#EXTINF:-1 tvg-id="8yomo4h1j76zq0j" tvg-name="AS Roma vs Genoa" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/4zp5rzghp5q82w1/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/4zp5rzghp5q82w1/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",AS Roma vs Genoa (LIVE - Babak 2)
-https://live2.jorvakstreamcache.com/live/channel11.m3u8
-
-#EXTINF:-1 tvg-id="8yomo4h1jvdeq0j" tvg-name="Troyes vs RC Lens" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/yl5ergphnzr8k0o/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/yl5ergphnzr8k0o/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",Troyes vs RC Lens (LIVE - Babak 2)
-https://live2.jorvakstreamcache.com/live/channel18.m3u8
-
-#EXTINF:-1 tvg-id="l5ergph4je1xr8k" tvg-name="LOSC Lille vs Brest" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/yl5ergphnzr8k0o/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/yl5ergphnzr8k0o/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",LOSC Lille vs Brest (LIVE - Babak 2)
-https://live2.jorvakstreamcache.com/live/channel24.m3u8
-
 #EXTINF:-1 tvg-id="965mkyhkxz3kr1g" tvg-name="Valencia CF vs Athletic Bilbao" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/vl7oqdehlyr510j/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/vl7oqdehlyr510j/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",Valencia CF vs Athletic Bilbao (LIVE - Babak 2)
 https://live2.jorvakstreamcache.com/live/channel6.m3u8
 
 #EXTINF:-1 tvg-id="y0or5jh8d0e7qwz" tvg-name="Sparta Rotterdam vs Willem II" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/vl7oqdeheyr510j/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/vl7oqdeheyr510j/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",Sparta Rotterdam vs Willem II (LIVE - Babak 2)
 https://live2.jorvakstreamcache.com/live/channel16.m3u8
+
+########################################################
+## [JADWAL] PERTANDINGAN MENDATANG
+########################################################
+
+#EXTINF:-1 tvg-id="x7lm7phjd50lm2w" tvg-name="SC Telstar vs Feyenoord" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/vl7oqdeheyr510j/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/vl7oqdeheyr510j/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",[18/10 01:00 WIB] [Eredivisie] SC Telstar vs Feyenoord
+https://live2.jorvakstreamcache.com/live/channel23.m3u8
+
+#EXTINF:-1 tvg-id="8yomo4h1jvdeq0j" tvg-name="Troyes vs RC Lens" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/yl5ergphnzr8k0o/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/yl5ergphnzr8k0o/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",[18/10 01:45 WIB] [Ligue 1] Troyes vs RC Lens
+https://live2.jorvakstreamcache.com/live/channel18.m3u8
+
+#EXTINF:-1 tvg-id="l5ergph4je1xr8k" tvg-name="LOSC Lille vs Brest" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/yl5ergphnzr8k0o/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/yl5ergphnzr8k0o/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",[18/10 01:45 WIB] [Ligue 1] LOSC Lille vs Brest
+https://live2.jorvakstreamcache.com/live/channel24.m3u8
+
+#EXTINF:-1 tvg-id="8yomo4h1j76zq0j" tvg-name="AS Roma vs Genoa" tvg-logo="https://imgts.sportpulseapiz.com/football/competition/4zp5rzghp5q82w1/image/small" logo="https://imgts.sportpulseapiz.com/football/competition/4zp5rzghp5q82w1/image/small" group-title="LIVE EVENT" tvg-country="ID" tvg-language="Indonesian" catchup="false",[18/10 01:45 WIB] [Serie A Italia] AS Roma vs Genoa
+https://live2.jorvakstreamcache.com/live/channel11.m3u8
